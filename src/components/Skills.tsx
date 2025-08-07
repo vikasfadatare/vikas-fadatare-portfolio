@@ -90,9 +90,8 @@ const Skills = () => {
 
           <div className="mt-16 text-center">
             <p className="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
-              I have hands-on experience with these technologies through various projects and continuous learning. 
-              My expertise spans across full-stack development, from backend services to responsive frontend interfaces, 
-              with a strong foundation in data structures and algorithms.
+             I've gained practical experience across a wide range of technologies through both real-world projects and continuous learning. 
+             My skill set covers full-stack development — from building robust backend systems to crafting responsive front-end interfaces
             </p>
           </div>
         </div>
