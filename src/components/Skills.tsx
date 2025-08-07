@@ -4,52 +4,52 @@ const Skills = () => {
   const skills = [
     {
       name: 'Java',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/blob/main/public/java.png',              
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/java.png',                            
       category: 'Backend'
     },
     {
       name: 'Spring Boot',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/blob/main/public/springboot.png',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/springboot.png',
       category: 'Backend'
     },
     {
       name: 'MySQL',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/blob/main/public/mysql.png',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/mysql.png',
       category: 'Database'
     },
     {
       name: 'PostgreSQL',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/blob/main/public/postgresql.png',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/postgresql.png',
       category: 'Database'
     },
     {
       name: 'React',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/blob/main/public/react.png',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/react.png',
       category: 'Frontend'
     },
     {
       name: 'HTML',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/blob/main/public/html.png',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/html.png',
       category: 'Frontend'
     },
     {
       name: 'CSS',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/blob/main/public/css.png',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/css.png',
       category: 'Frontend'
     },
     {
       name: 'JavaScript',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/blob/main/public/javascript.png',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/javascript.png',
       category: 'Frontend'
     },
     {
       name: 'Leetcode',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/blob/main/public/leetcode.png',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/leetcode.png',
       category: 'Data Structures'
     },
     {
       name: 'Microservices',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/blob/main/public/microservices.png',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/microservices.png',
       category: 'Backend'
     }
   ];
