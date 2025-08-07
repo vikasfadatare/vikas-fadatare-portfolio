@@ -13,45 +13,80 @@ const Skills = () => {
       category: 'Backend'
     },
     {
+      name: 'Microservices',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/microservices.png',
+      category: 'Backend'
+    },
+    {
+      name: 'REST API',
+      // image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/rest-api.png',
+      image:'/rest-api.png',
+      category: 'Backend'
+    },
+    {
       name: 'MySQL',
       image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/mysql.png',
       category: 'Database'
-    },
-    {
-      name: 'PostgreSQL',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/postgresql.png',
-      category: 'Database'
-    },
+    },    
     {
       name: 'React',
       image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/react.png',
       category: 'Frontend'
-    },
+    },    
     {
       name: 'HTML',
       image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/html.png',
       category: 'Frontend'
     },
     {
-      name: 'CSS',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/css.png',
-      category: 'Frontend'
+      name: 'GitHub',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/github.png',      
+      category: 'CI/CD & DevOps'
     },
     {
-      name: 'JavaScript',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/javascript.png',
-      category: 'Frontend'
+      name: 'Jenkins',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/jenkins.png',      
+      category: 'CI/CD & DevOps'
     },
     {
-      name: 'Leetcode',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/leetcode.png',
-      category: 'Data Structures'
+      name: 'Docker',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/docker.png',      
+      category: 'CI/CD & DevOps'
     },
     {
-      name: 'Microservices',
-      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/microservices.png',
-      category: 'Backend'
-    }
+      name: 'Kubernetes',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/kubernetes.png',      
+      category: 'CI/CD & DevOps'
+    },
+    {
+      name: 'AWS',
+      image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/aws.png',      
+      category: 'CI/CD & DevOps'
+    },
+
+
+ 
+    // {
+    //   name: 'PostgreSQL',
+    //   image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/postgresql.png',
+    //   category: 'Database'
+    // },
+    // {
+    //   name: 'CSS',
+    //   image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/css.png',
+    //   category: 'Frontend'
+    // },
+    // {
+    //   name: 'JavaScript',
+    //   image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/javascript.png',
+    //   category: 'Frontend'
+    // },
+    // {
+    //   name: 'Leetcode',
+    //   image: 'https://raw.githubusercontent.com/vikasfadatare/vikas-fadatare-portfolio/main/public/leetcode.png',
+    //   category: 'Data Structures'
+    // },
+    
   ];
 
   return (
