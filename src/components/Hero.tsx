@@ -24,7 +24,7 @@ const Hero = () => {
           </h2>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-            🚀 Java Developer | Backend Specialist | Building Scalable Systems | 8+ Years of Crafting Robust Solutions
+            🚀 Full Stack Developer | Backend Specialist | Building Scalable Systems | 8+ Years of Crafting Robust Solutions
           </p>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 mb-12 text-gray-600">
