@@ -14,6 +14,14 @@ const Header = () => {
   }, []);
 
   const scrollToSection = (sectionId: string) => {
+     if (sectionId === 'resume') {
+      window.open(
+        'https://drive.google.com/file/d/1UOPJkl7EMJvjzui1vxLH2vV5JH2gNxnH/view?usp=sharing',
+        '_blank'
+      );
+      setIsMenuOpen(false);
+      return;
+    }
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
@@ -36,7 +44,7 @@ const Header = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            {['About', 'Skills', 'Contact'].map((item) => (
+            {['About', 'Skills', 'Resume', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
@@ -59,7 +67,7 @@ const Header = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden mt-4 py-4 bg-white rounded-lg shadow-lg">
-            {['About', 'Skills', 'Projects', 'Resume', 'Contact'].map((item) => (
+            {['About', 'Skills', 'Resume', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
